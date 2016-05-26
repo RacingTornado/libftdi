@@ -1,0 +1,1 @@
+/usr/bin/cc  -O2 -g -DNDEBUG    CMakeFiles/serial_test.dir/serial_test.c.o  -o serial_test -rdynamic ../src/libftdi1.so.2.3.0 /usr/local/lib/libusb-1.0.so -Wl,-rpath,/home/itsy/libftdi_compile/libftdi/build/src:/usr/local/lib 

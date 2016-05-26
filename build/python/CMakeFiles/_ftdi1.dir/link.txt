@@ -1,0 +1,1 @@
+/usr/bin/cc  -fPIC -O2 -g -DNDEBUG   -shared  -o _ftdi1.so CMakeFiles/_ftdi1.dir/ftdi1PYTHON_wrap.c.o  -L/home/itsy/libftdi_compile/libftdi/build/python/../src ../src/libftdi1.so.2.3.0 -lpython2.7 /usr/local/lib/libusb-1.0.so -Wl,-rpath,/home/itsy/libftdi_compile/libftdi/build/python/../src:/home/itsy/libftdi_compile/libftdi/build/src:/usr/local/lib: 

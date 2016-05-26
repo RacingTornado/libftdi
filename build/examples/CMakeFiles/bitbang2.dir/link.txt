@@ -1,0 +1,1 @@
+/usr/bin/cc  -O2 -g -DNDEBUG    CMakeFiles/bitbang2.dir/bitbang2.c.o  -o bitbang2 -rdynamic ../src/libftdi1.so.2.3.0 /usr/local/lib/libusb-1.0.so -Wl,-rpath,/home/itsy/libftdi_compile/libftdi/build/src:/usr/local/lib 
