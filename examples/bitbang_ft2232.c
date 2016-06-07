@@ -27,10 +27,10 @@ int main(int argc, char **argv)
     }
 
     ftdi_set_interface(ftdi, INTERFACE_A);
-    f = ftdi_usb_open(ftdi, 0x0403, 0x6001);
+    f = ftdi_usb_open(ftdi, 0x0403, 0x6010);
     if (f < 0 && f != -5)
     {
-        fprintf(stderr, "unable to open ftdi device: %d (%s)\n", f, ftdi_get_error_string(ftdi));
+        fprintf(stderr, "unablecc to open ftdi device: %d (%s)\n", f, ftdi_get_error_string(ftdi));
         ftdi_free(ftdi);
         exit(-1);
     }
@@ -46,7 +46,7 @@ int main(int argc, char **argv)
         return EXIT_FAILURE;
     }
     ftdi_set_interface(ftdi2, INTERFACE_B);
-    f = ftdi_usb_open(ftdi2, 0x0403, 0x6001);
+    f = ftdi_usb_open(ftdi2, 0x0403, 0x6010);
     if (f < 0 && f != -5)
     {
         fprintf(stderr, "unable to open ftdi device: %d (%s)\n", f, ftdi_get_error_string(ftdi2));

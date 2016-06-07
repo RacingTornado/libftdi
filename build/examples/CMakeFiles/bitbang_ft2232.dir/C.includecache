@@ -6,3 +6,21 @@
 
 #IncludeRegexTransform: 
 
+../src/ftdi.h
+stdint.h
+-
+sys/time.h
+-
+windows.h
+-
+
+/home/itsy/libftdi_compile/libftdi/examples/bitbang_ft2232.c
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+ftdi.h
+-
+
